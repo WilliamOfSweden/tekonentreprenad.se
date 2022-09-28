@@ -1,7 +1,7 @@
-# Company Website • Thors Bygg
+# Company Website • Tekon Entreprenad
 
-[![](./static/banner.png)](https://thorsbygg.se)
-[www.thorsbygg.se](https://thorsbygg.se)
+[![](./static/banner.png)](https://tekonentreprenad.se)
+[www.tekonentreprenad.se](https://tekonentreprenad.se)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/29afc317-9947-4d45-b536-0992875375d7/deploy-status)](https://app.netlify.com/sites/thorsbygg/deploys) &nbsp; [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=WilliamOfSweden_thorsbygg.se&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=WilliamOfSweden_thorsbygg.se)
 

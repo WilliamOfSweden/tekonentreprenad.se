@@ -37,7 +37,7 @@ export const AboutSection = () => {
             layout='fullWidth'
             loading='eager'
             placeholder='none'
-            src='../../images/about.jpeg'
+            src='../../../images/about.jpeg'
           />
         </div>
         <div>

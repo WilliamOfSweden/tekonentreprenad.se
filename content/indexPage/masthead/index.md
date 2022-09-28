@@ -1,5 +1,5 @@
 ---
-title: Thors Bygg
+title: Tekon Entreprenad
 ---
 
 Vi förverkligar drömmar!

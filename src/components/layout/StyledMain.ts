@@ -4,5 +4,5 @@ import { THEME } from '../../styles/theme'
 
 export const StyledMain = styled.main`
   margin-inline: auto;
-  width: min(${THEME.breakpoints.xl}, 100%);
+  width: min(${THEME.breakpoints.xxl}, 100%);
 `

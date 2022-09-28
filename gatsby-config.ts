@@ -5,11 +5,11 @@ const gatsbyConfig: GatsbyConfig = {
   siteMetadata: {
     author: 'William Daghouz',
     ogDescription: `Vi utför totalentreprenader, underentreprenader, nybyggnation, ombyggnation, tillbyggnation och mindre servicearbeten.`,
-    ogImageUrl: `https://thorsbygg.se/banner.png`,
+    ogImageUrl: `https://tekonentreprenad.se/banner.png`,
     ogType: 'website',
-    siteDescription: `Company Websites | Thors Bygg`,
-    siteTitle: `Thors Bygg`,
-    siteUrl: `https://thorsbygg.se`,
+    siteDescription: `Company Websites | Tekon Entreprenad`,
+    siteTitle: `Tekon Entreprenad`,
+    siteUrl: `https://tekonentreprenad.se`,
     twitterCard: 'summary_large_image',
   },
   plugins: [
