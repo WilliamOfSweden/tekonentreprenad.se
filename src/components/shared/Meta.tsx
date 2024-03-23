@@ -1,8 +1,7 @@
-import React from 'react'
+import React, {Fragment} from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
-import { Helmet } from 'react-helmet'
 
-export const SEO = () => {
+export const Meta = () => {
   const data = useStaticQuery(graphql`
     query HeaderQuery {
       site {
@@ -30,7 +29,7 @@ export const SEO = () => {
   } = data.site.siteMetadata
 
   return (
-    <Helmet>
+    <Fragment>
       <html lang='sv-SE' />
       <meta content={siteDescription} name='description' />
       <meta content={siteUrl} property='og:url' />
@@ -43,6 +42,6 @@ export const SEO = () => {
       <meta name='twitter:url' content={siteUrl} />
       <meta property='twitter:image' content={ogImageUrl} />
       <title>{siteTitle}</title>
-    </Helmet>
+    </Fragment>
   )
 }

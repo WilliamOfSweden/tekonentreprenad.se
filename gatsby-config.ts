@@ -45,7 +45,6 @@ const gatsbyConfig: GatsbyConfig = {
       },
     },
     'gatsby-plugin-styled-components',
-    `gatsby-plugin-react-helmet`,
   ],
 }
 

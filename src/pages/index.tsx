@@ -1,7 +1,5 @@
 import React, { Fragment } from 'react'
 
-import { SEO } from '../components/shared/'
-import { Layout } from '../components/layout/'
 import {
   AboutSection,
   CTASection,
@@ -10,10 +8,12 @@ import {
   ServicesSection,
   SustainabilitySection,
 } from '../components/indexPageComponents/'
+import { Layout } from '../components/layout/'
+import { Meta } from '../components/shared/'
 
 const IndexPage = () => (
   <Fragment>
-    <SEO />
+    <Meta />
     <Layout>
       <Masthead />
       <CTASection />
@@ -26,3 +26,5 @@ const IndexPage = () => (
 )
 
 export default IndexPage
+
+export const Head = () => <Meta/>
