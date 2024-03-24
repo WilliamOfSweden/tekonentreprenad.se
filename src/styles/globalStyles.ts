@@ -53,5 +53,21 @@ export const GlobalStyles = createGlobalStyle`
     p {
       font-size: 1.2rem;
     }
+    
+    .mobile-only {
+      display: none;
+      
+      @media (min-width: ${THEME.breakpoints.sm}) {
+        display: block;
+      }
+    }
+    
+    .desktop-only {
+      display: block;
+      
+      @media (min-width: ${THEME.breakpoints.sm}) {
+        display: none;
+      }
+    }
   }
 `
