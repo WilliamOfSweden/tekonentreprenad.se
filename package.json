@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@fontsource/nothing-you-could-do": "5.0.18",
-    "gatsby": "5.13.3",
+    "gatsby": "5.13.6",
     "gatsby-plugin-image": "3.13.1",
     "gatsby-plugin-sharp": "5.13.1",
     "gatsby-plugin-smoothscroll": "1.2.0",
