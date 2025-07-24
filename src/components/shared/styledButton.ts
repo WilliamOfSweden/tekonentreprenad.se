@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { THEME } from '../../styles/theme'
 
 interface Props {
-  fullWidth?: boolean
+  $fullWidth?: boolean
 }
 
 export const StyledButton = styled.button<Props>`
@@ -25,6 +25,6 @@ export const StyledButton = styled.button<Props>`
   }
 
   @media (min-width: ${THEME.breakpoints.sm}) {
-    max-width: ${({ fullWidth }) => (fullWidth ? '100%' : '300px')};
+    max-width: ${({ $fullWidth }) => ($fullWidth ? '100%' : '300px')};
   }
 `

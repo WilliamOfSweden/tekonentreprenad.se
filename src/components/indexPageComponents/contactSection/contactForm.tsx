@@ -21,10 +21,10 @@ const StyledForm = styled.form`
     textarea {
       background-color: #e8eaef;
       border: none;
-      border-radius: var(--shape-radius-sm);
+      border-radius: 0.25rem;
       color: #000;
       height: 40px;
-      padding: var(--space-md);
+      padding: 0.5rem;
     }
 
     textarea {
@@ -34,7 +34,7 @@ const StyledForm = styled.form`
 
     input:focus,
     textarea:focus {
-      outline: 2px solid var(--color-primary);
+      outline: 2px solid #2a4e6c;
     }
   }
 `
@@ -58,7 +58,7 @@ export const ContactForm = () => (
     <div>
       <label htmlFor='name'>Name *</label>
       <input
-        araia-invalid={false}
+        aria-invalid={false}
         autoComplete=''
         id='name'
         name='name'
@@ -68,7 +68,7 @@ export const ContactForm = () => (
     <div>
       <label htmlFor='email'>E-post *</label>
       <input
-        araia-invalid={false}
+        aria-invalid={false}
         id='email'
         name='email'
         required
@@ -78,7 +78,7 @@ export const ContactForm = () => (
     <div>
       <label htmlFor='organization'>Företag / Organisation</label>
       <input
-        araia-invalid={false}
+        aria-invalid={false}
         id='organization'
         name='organization'
         type='text'
@@ -88,7 +88,7 @@ export const ContactForm = () => (
       <label htmlFor='message'>Meddelande</label>
       <textarea id='message' name='message' required />
     </div>
-    <StyledButton fullWidth name='send' type='submit'>
+    <StyledButton $fullWidth name='send' type='submit'>
       Skicka
     </StyledButton>
   </StyledForm>
